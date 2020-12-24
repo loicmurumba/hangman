@@ -23,7 +23,7 @@ public class Main {
         boolean game_over = false;
         
         // Print initial status
-        System.out.println("Welcome to hang man. Here is your word to guess");
+        System.out.println("Welcome to hangman. Here is your word to guess");
         printGameBoard(gameBoard);
         
         // Main game loop, use game_over boolean to be more readable than infinite while with breaks
